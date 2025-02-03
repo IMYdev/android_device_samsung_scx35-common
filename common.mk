@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
 	audio_policy.conf \
 	codec_pga.xml \
 	tiny_hw.xml \
-	audio.primary.sc8830 \
 	libaudio-resampler
 
 # Bluetooth
