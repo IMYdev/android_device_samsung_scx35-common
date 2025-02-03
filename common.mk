@@ -18,7 +18,7 @@ LOCAL_PATH := device/samsung/scx35-common
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from sprd-common device configuration
-$(call inherit-product, device/samsung/sprd-common/common.mk)
+$(call inherit-product, device/samsung/sprd-common/device.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
